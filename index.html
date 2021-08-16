@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>father's Bank</title>
+    <!--========================= tailwind cdn ============================= -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl	text-center	mt-12 font-bold">
+            Welcome to my <span class="text-purple-600">father's bank</span> !!
+        </h1>
+    </header>
+    <main>
+        <section class="bg-green-200 w-9/12 mx-auto mt-6 pl-8 py-8">
+            <h3 class="text-2xl font-semibold mb-4">Please login</h3>
+            <p id="error-message" class="text-red-500 mb-2"></p>
+            <div>
+                <input id="user-email" class="border-3 border-gray-600 rounded px-4 py-1 block w-3/4 mb-4" type="email" name="" placeholder="Enter Your Email" id="">
+                <input id="user-password" class="border-3 border-gray-600 rounded px-4 py-1 block w-3/4 mb-4" type="password" placeholder="Enter Your Password" name="" id="">
+
+                <button id="submit-button" class="bg-blue-700 px-4 py-2 text-white font-semibold rounded hover:bg-yellow-600 hover:text-gray-700">SUBMIT</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
